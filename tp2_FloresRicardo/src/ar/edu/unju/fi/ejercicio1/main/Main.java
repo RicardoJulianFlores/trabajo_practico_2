@@ -126,6 +126,7 @@ public class Main {
 	public static void modificar(List<Producto> almacen)
 	{
 		int codigo;
+		boolean encontrado=false;
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Ingrese codigo del producto que quiera modificar: ");
 		codigo=sc.nextInt();
@@ -138,6 +139,9 @@ public class Main {
 				producto.setPrecioUnitario(sc.nextDouble());
 				sc.nextLine();
 				submenu(producto);
+				encontrado=true;
 			}
+		if(!encontrado)
+			System.out.println("El codigo no pertence a un producto existente");
 	}
 }
