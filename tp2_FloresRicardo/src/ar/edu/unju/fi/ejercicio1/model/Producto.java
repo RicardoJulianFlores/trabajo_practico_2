@@ -21,6 +21,9 @@ public class Producto {
 		this.estado = estado;
 	}
 
+	public Producto() {
+	}
+  
 	public int getCodigo() {
 		return codigo;
 	}
@@ -57,7 +60,6 @@ public class Producto {
 	public void setEstado(boolean estado) {
 		this.estado = estado;
 	}
-	
 	
 	
 }
