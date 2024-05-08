@@ -84,7 +84,7 @@ public class Main {
 	static void comprar(List<Producto> stock)
 	{
 		boolean encontrado = false;
-		List<Producto> carrito= new ArrayList<Producto>();
+		List<Producto> carrito = new ArrayList<Producto>();
 		Scanner sc = new Scanner(System.in);
 		do {
 		System.out.print("Ingrese producto a comprar:");
