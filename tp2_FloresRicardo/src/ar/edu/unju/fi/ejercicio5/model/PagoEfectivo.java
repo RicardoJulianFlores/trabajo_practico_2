@@ -2,7 +2,6 @@ package ar.edu.unju.fi.ejercicio5.model;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-
 import ar.edu.unju.fi.ejercicio5.interfaces.Pago;
 
 public class PagoEfectivo implements Pago{
